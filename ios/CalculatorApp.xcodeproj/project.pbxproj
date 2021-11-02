@@ -12,6 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		4943C41163C330D08CF08F4D /* libPods-CalculatorApp-CalculatorAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCAF2EDB0DB3FE7E8784590 /* libPods-CalculatorApp-CalculatorAppTests.a */; };
+		5EE697AF2730C1860096898D /* splash-img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EE697AE2730C1860096898D /* splash-img.png */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8D5D44004735DFAD5A2C7C20 /* libPods-CalculatorApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD42ECAD1CCB485D5CD72717 /* libPods-CalculatorApp.a */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,7 @@
 		18780A34E5C02EAC29C41A3D /* Pods-CalculatorApp-CalculatorAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorApp-CalculatorAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CalculatorApp-CalculatorAppTests/Pods-CalculatorApp-CalculatorAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3DCAF2EDB0DB3FE7E8784590 /* libPods-CalculatorApp-CalculatorAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalculatorApp-CalculatorAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		479C0D26D061D5DCF9DFB92F /* Pods-CalculatorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorApp.release.xcconfig"; path = "Target Support Files/Pods-CalculatorApp/Pods-CalculatorApp.release.xcconfig"; sourceTree = "<group>"; };
+		5EE697AE2730C1860096898D /* splash-img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-img.png"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CalculatorApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B05D3D014AE4DEC97A82F34D /* Pods-CalculatorApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorApp.debug.xcconfig"; path = "Target Support Files/Pods-CalculatorApp/Pods-CalculatorApp.debug.xcconfig"; sourceTree = "<group>"; };
 		BD42ECAD1CCB485D5CD72717 /* libPods-CalculatorApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalculatorApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +93,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				5EE697AE2730C1860096898D /* splash-img.png */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = CalculatorApp;
@@ -104,7 +107,6 @@
 				18780A34E5C02EAC29C41A3D /* Pods-CalculatorApp-CalculatorAppTests.debug.xcconfig */,
 				C8A73D2F43A2A555E960B359 /* Pods-CalculatorApp-CalculatorAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -244,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				5EE697AF2730C1860096898D /* splash-img.png in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +486,7 @@
 			baseConfigurationReference = B05D3D014AE4DEC97A82F34D /* Pods-CalculatorApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
@@ -509,6 +513,7 @@
 			baseConfigurationReference = 479C0D26D061D5DCF9DFB92F /* Pods-CalculatorApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = CalculatorApp/Info.plist;
